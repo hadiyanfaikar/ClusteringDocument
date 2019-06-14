@@ -67,9 +67,9 @@ public class DocumentClusterTable extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setText("HASIL PENCARIAN CLUSTERING");
 
-        jLabel5.setText("Cluster 0 : Lagu Kebangsaan");
+        jLabel5.setText("Cluster 0 : Lagu Anak-Anak");
 
-        jLabel6.setText("Cluster 1 : Lagu Anak-Anak");
+        jLabel6.setText("Cluster 1 : Lagu Kebangsaan");
 
         Tabel.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -185,11 +185,10 @@ public class DocumentClusterTable extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 571, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(120, 120, 120)
-                        .addComponent(jLabel2)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(120, 120, 120)
+                                .addComponent(jLabel2))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(143, 143, 143)
                                 .addComponent(jLabel4))
